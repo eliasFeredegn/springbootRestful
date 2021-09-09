@@ -1,0 +1,17 @@
+package com.example.demo.model.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ThirdResponseClass {
+
+  private Integer firstVariable;
+
+  private List<FirstResponseClass> secondVariable;
+}
